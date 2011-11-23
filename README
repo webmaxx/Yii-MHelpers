@@ -1,0 +1,18 @@
+Yii helpers.
+
+1. Copy all files to protected/components/
+
+2. In config:
+	...
+	'import' => array(
+		...
+		'application.components.*',
+		...
+	),
+	...
+
+3. Use variants:
+	MHelper::get()->String->toLower('Text');
+	OR
+	MHelper::get('String')->toLower('Text');
+
