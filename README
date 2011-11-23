@@ -16,3 +16,68 @@ Yii helpers.
 	OR
 	MHelper::get('String')->toLower('Text');
 
+
+Helpers list.
+
+String
+	
+	Methods:
+		toUpper
+		toLower
+		substr
+		strrchr
+		len
+		trimSlashes
+		stripSlashes
+		stripQuotes
+		quotesToEntities
+		reduceDoubleSlashes
+		reduceMultiples
+		incrementString
+		alternator
+		repeater
+		wordwrap
+		truncate
+		randomString
+		toTranslit
+		fromTranslit
+
+Array
+	
+	Methods:
+		element
+		randomElement
+		elements
+
+Date
+	
+	Methods:
+		timeAgo
+		daysInMonth
+
+Directory
+
+	Methods:
+		map
+		clear
+		delete
+
+File
+	
+	Methods:
+		isFile
+		isReadable
+		read
+		write
+		delete
+		filenames
+		filesInfo
+		fileInfo
+		pathInfo
+		size
+		sizeFormat
+		send
+		download
+		getMimeType
+		getMimeTypeByExtension
+
