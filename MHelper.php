@@ -7,6 +7,8 @@
  * MHelper::get('Type')->method(params);
  * OR
  * MHelper::get()->Type->method(params);
+ * OR
+ * MHelper::Type()->method(params); // PHP 5.3+ only
  * </code>
  *
  * @version 0.1 21.08.2011
@@ -21,6 +23,11 @@ class MHelper
 	private function __construct() {}
 	private function __clone() {}
 	
+	public static function __callStatic($name, $arguments)
+	{
+		return self::get($name);
+	}
+
 	public function __get($name)
 	{
 		if (!isset(self::$_Helpers[$name])) {
