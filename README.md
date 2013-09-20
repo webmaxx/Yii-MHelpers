@@ -1,3 +1,6 @@
+Close
+=====
+
 Yii helpers.
 
 1. Copy all files to protected/components/
