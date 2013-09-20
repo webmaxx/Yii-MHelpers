@@ -1,5 +1,5 @@
-Close
-=====
+Closed
+======
 
 Yii helpers.
 
