@@ -1,6 +1,8 @@
 Closed
 ======
 
+### Use new version: https://github.com/webmaxx/Yii-MHelper
+
 Yii helpers.
 
 1. Copy all files to protected/components/
